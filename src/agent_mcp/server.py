@@ -1,6 +1,6 @@
 from mcp.server.fastmcp import FastMCP
 
-from src.mcp.tools.weather import get_alerts, get_forecast
+from src.agent_mcp.tools.weather import get_alerts, get_forecast
 
 
 def register_tools(mcp_server):

@@ -40,7 +40,8 @@ MCP is used for connecting agents to external services such as APIs, databases, 
 ---
 
 ## Running Project
-
-```bash
-uv sync
-python -m src.main
+#### To set up and run this application, follow these steps:
+1. Clone this repository to your local machine.
+2. Install the required dependencies by running: `uv sync`.
+3. Configure your environment variables by creating a `.env` file in the root directory of your project. Set the necessary variables as described in the Environment Variables section above (or in `.env.example`).
+4. Start the script with: `python -m src.main`
